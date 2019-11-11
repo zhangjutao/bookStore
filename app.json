@@ -9,5 +9,5 @@
     "navigationStyle":"default",
     "backgroundColor":"#ffffff"
   },
-  "sitemapLocation":"/sitemap.json"
+  "sitemapLocation":"sitemap.json"
 }
