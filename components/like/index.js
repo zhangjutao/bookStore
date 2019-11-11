@@ -33,6 +33,12 @@ Component({
         count:count,
         like:!like
       })
+      //激活
+      let behavior = this.properties.like?'like':'cancel';
+      //三个参数：事件名称； detail对象(提供给事件监听函数) ； 触发事件的选项
+      this.triggerEvent('like',{
+        behavior: behavior
+      },{})
     }
   }
 })
