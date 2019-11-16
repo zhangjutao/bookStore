@@ -9,6 +9,10 @@ Component({
     },
     count:{
       type:Number
+    },
+    test:{
+      type:String,
+      value:'haha'
     }
   },
 
