@@ -8,14 +8,15 @@ Component({
   behaviors: [classicBeh], //继承behaviors 其中有properties属性
   properties: {
     // img:String,
-    // content:String
+    // content:String,
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+    pauseSrc:'images/player@waitting.png',
+    playSrc:'images/player@playing.png'
   },
 
   /**

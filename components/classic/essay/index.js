@@ -1,15 +1,18 @@
-import { classicBeh } from '../classic-beh.js';
+import {classicBeh} from '../classic-beh.js';
 
 Component({
   /**
    * 组件的属性列表
    */
 
-  behaviors: [classicBeh], //继承behaviors 其中有properties属性
+  behaviors:[classicBeh], //继承behaviors 其中有properties属性
+
   properties: {
     // img:String,
     // content:String
   },
+
+  //behavior 行为
 
   /**
    * 组件的初始数据

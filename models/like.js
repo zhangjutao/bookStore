@@ -4,7 +4,7 @@ class LikeModel extends HTTP {
    let url = behavior === 'like' ? 'like':'like/cancel';
    this.request({
      url:url,
-     mothed:"POST",
+     method:"POST",
      data:{
        art_id:artID,
        type: category
